@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
-const generatePage = require('../src/page-template.js');
-const { writeFile, copyFile } = require('../utils/generate-site');
+const generatePage = require('../portfolio-generator/src/page-template.js');
+const { writeFile, copyFile } = require('../portfolio-generator/utils/generate-site');
 
 const promptUser = () => {
   return inquirer.prompt([
